@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375" height="812" viewBox="0 0 375 812" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="grad" x1="0" x2="1">
+      <stop offset="0" stop-color="#6D28D9" stop-opacity="1"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="1"/>
+    </linearGradient>
+    <style><![CDATA[
+      .title { font: 700 20px 'Inter', sans-serif; fill: #6D28D9; }
+      .subtitle { font: 400 12px 'Inter', sans-serif; fill: #6B7280; }
+      .card-title { font: 600 14px 'Inter', sans-serif; fill: #0f172a; }
+      .small { font: 400 11px 'Inter', sans-serif; fill: #6B7280; }
+      .tag { font: 600 11px 'Inter', sans-serif; fill: white; }
+    ]]></style>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="375" height="812" rx="0" ry="0" fill="#FFFFFF" />
+
+  <!-- Top bar / header with gradient -->
+  <rect x="0" y="0" width="375" height="140" rx="0" ry="0" fill="url(#grad)"/>
+  <text x="20" y="48" class="title">Batch Detail</text>
+  <text x="20" y="72" class="subtitle">Educare • Modern student app</text>
+
+  <!-- Main content area -->
+  <g transform="translate(0,120)">
+    <!-- Elevated central card -->
+    <rect x="16" y="16" width="343" height="680" rx="20" ry="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <!-- Inner padding area -->
+    <g transform="translate(36,36)">
+      <text x="0" y="0" class="card-title">Batch Detail Screen</text>
+      <text x="0" y="22" class="small">Tabs: Overview | Attendance | Progress | Group Chat | Trainers.</text>
+
+      <!-- Example UI elements depending on title -->
+
+    </g>
+  </g>
+</svg>

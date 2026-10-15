@@ -1,0 +1,45 @@
+=========== STUDENT LOGIN ===========
+
+HOME 
+    -> Welcome Name, Notifications Icon, Messages Icon
+    -> Search & Wishlist Icon
+    -> Categories
+    -> Enrolled Batches (Clickable)
+    -> Upcoming Batches
+    -> Popular Courses (with see All Courses option)
+
+ALL COURSES
+    -> Search & Filter (Sort by Price, Popularity, Type, Ratings)
+    -> List of All Courses
+
+JOBS
+    -> 
+
+PROFILE
+    -> Name, Contact (Non-Editable)
+    -> Profile Pic, Email (Editable)
+
+OTHER PAGES
+    -> Course Detail Page 
+    -> Enrolled Batch Detail Page (Attendance Record, Batch Progress (Calendar View), Fee Record)
+    -> Notification Page
+    -> Wishlist Page
+
+=========== TRAINER LOGIN ===========
+
+HOME
+    -> Welcome Name, Notifications Icon, Messages Icon
+    -> Upcoming Lecture
+    -> Ongoing Batches
+    -> Lecture Schedule (Calendar View)
+
+BATCHES
+    -> Search & Filter
+    -> All Batches
+
+PROFILE
+    -> Name
+    -> Profile Pic, Contact, Email (Editable)
+
+OTHER PAGES
+    -> Batch Detail Page (Lectures Conducted, Progress (Calendar View), Attendance, Trainer Renumeration)

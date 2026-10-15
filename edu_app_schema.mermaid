@@ -1,0 +1,50 @@
+erDiagram
+    users ||--o{ login_history : tracks
+    users ||--o{ students : "is a"
+    users ||--o{ teachers : "is a"
+    
+    users {
+        int user_id PK
+        string email UK
+        string password_hash
+        string user_type
+        string first_name
+        string last_name
+        string phone_number
+        timestamp created_at
+        timestamp updated_at
+        boolean is_active
+        timestamp last_login
+    }
+    
+    students {
+        int student_id PK
+        int user_id FK
+        string student_code UK
+        string grade_level
+        date date_of_birth
+        string guardian_name
+        string guardian_contact
+        timestamp enrollment_date
+    }
+    
+    teachers {
+        int teacher_id PK
+        int user_id FK
+        string employee_id UK
+        string department
+        string qualification
+        date hire_date
+        string specialization
+    }
+    
+    login_history {
+        int login_id PK
+        int user_id FK
+        timestamp login_time
+        timestamp logout_time
+        string ip_address
+        string device_info
+        boolean login_successful
+        string failure_reason
+    }
